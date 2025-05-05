@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>SRI Alumni - 2025 Spring Fling Photos</title>
+</head>
+<body>
+
+<h2>SRI Alumni - 2025 Spring Fling Photos</h2>
+
+<center><div id="photos"></div></center>
+        
+<script type="text/javascript">
+let div = document.getElementById(`photos`)
+for (let i = 1; i <= 23; i++) {
+    filename = "srialum2025-" + i + ".jpg";
+    div.innerHTML += "<a href='" + filename + "'><img src=" + filename + " style='height:250;padding:5px'></img></a>";
+}
+</script>
+</body>
+</html>
