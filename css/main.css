@@ -101,9 +101,10 @@ body {
 }
 
 ol, ul {
-  margin: 0;
+  margin-left: 10px;
   padding: 0;
-  list-style: none;
+  list-style: disc;
+  list-style-position: inside;
 }
 
 select {
@@ -4222,6 +4223,28 @@ dl.accordion.time-line:before {
   border-color: #8490ff !important;
   color: #8490ff !important;
 }
+
+.callout {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  max-width: 350px;
+  padding: 25px;
+  font-size: 15px;
+  float: right;
+  background-color: #6495ED;
+}
+
+.callout h2 { color: #fff }
+.callout h3 { color: #fff }
+.callout h4 { color: #fff }
+.callout p { color: #fff }
+.callout p b { color: #fff !important;}
+.callout ul li { color: #fff !important;}
+.callout ul li b { color: #fff !important;}
+.callout ul li a { color: #fff !important;}
+
+
+
 
 /*============ End Blog Single Styles  =============*/
 /* =================================== */
