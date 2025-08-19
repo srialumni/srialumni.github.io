@@ -4237,6 +4237,7 @@ dl.accordion.time-line:before {
 .callout h2 { color: #fff }
 .callout h3 { color: #fff }
 .callout h4 { color: #fff }
+.callout p a { color: #fff }
 .callout p { color: #fff }
 .callout p b { color: #fff !important;}
 .callout ul li { color: #fff !important;}
