@@ -2,7 +2,7 @@
 Theme Name: Personal 
 Description: 
 Author: Colorlib
-Author URI: 
+Author URI: https://colorlib.com/wp/template/personal/
 Version: 1.0
 Created: 
 ******************************************************************/
@@ -2142,7 +2142,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Nav Meu Container */
 @media (max-width: 768px) {
   #nav-menu-container {
-    display: none;
+   # display: none;
   }
 }
 
@@ -2220,7 +2220,7 @@ h1, h2, h3, h4, h5, h6 {
     display: inline;
   }
   #nav-menu-container {
-    display: none;
+   # display: none;
   }
 }
 
