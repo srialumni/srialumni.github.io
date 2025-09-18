@@ -107,6 +107,11 @@ ol, ul {
   list-style-position: inside;
 }
 
+hr {
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
 select {
   display: block;
 }
@@ -164,15 +169,15 @@ h4, h5, h6 {
   font-family: "Poppins", sans-serif;
   color: #222222;
   line-height: 1.2em !important;
-  margin-bottom: 0;
-  margin-top: 0;
+  margin-bottom: 4;
+  margin-top: 8;
   font-weight: 600;
 }
 
 .h1, .h2, .h3,
 .h4, .h5, .h6 {
-  margin-bottom: 0;
-  margin-top: 0;
+  margin-bottom: 4;
+  margin-top: 8;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: #222222;
