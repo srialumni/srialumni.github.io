@@ -4262,6 +4262,10 @@ dl.accordion.time-line:before {
     border-color: #6495ED !important;
 }
 
+.newsletter {
+  font-weight: 500;
+  
+}
 
 /*============ End Blog Single Styles  =============*/
 /* =================================== */
