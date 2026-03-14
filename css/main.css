@@ -4538,3 +4538,58 @@ dl.accordion.time-line:before {
 }
 
 /*-------- end footer Area -------------*/
+
+
+/*--------------------------------------------------------------
+ Big Buttons 
+  
+ Adapted from http://www.adam-bray.com/blog/86/Simple+CSS+3+buttons/
+ Avoid flashing of color for accessibility reasons. So no flipping
+ green to white or blue to white on hover. Can underline on hover.
+--------------------------------------------------------------*/
+
+[class*='btn-'] {
+	border-radius: 15px;
+	color: #fff;
+	display: inline-block;
+	font-size: 22px;
+  font-weight:regular;
+  text-decoration:none;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+	text-decoration: none;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+	
+	-webkit-transition: background-color 0.1s linear;
+	-moz-transition: background-color 0.1s linear;
+	-o-transition: background-color 0.1s linear;
+	  transition: background-color 0.1s linear;	
+}
+
+[class*='btn-']:hover {
+		cursor: pointer;
+}
+
+.btn-blue {
+	background-color: #6f7cff;
+	border: 1px solid #6f7cff;
+  color: #ffffff;
+}
+	
+.btn-blue:hover {
+	background-color: #3b5aff;
+  text-decoration:none;
+  color: #ffffff;
+
+}
+		
+.btn-blue:active {
+	background-color: #3b5aff; 
+  text-decoration:none;
+}
