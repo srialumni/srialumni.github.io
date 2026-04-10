@@ -3,7 +3,7 @@ Theme Name: Personal
 Description: 
 Author: Colorlib
 Author URI: https://colorlib.com/wp/template/personal/
-Version: 1.0
+Version: 1.2
 Created: 
 ******************************************************************/
 /*------------------------------------------------------------------
@@ -2324,7 +2324,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*  Homepage Styles
 /* =================================== */
 .section-gap {
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 .alert-msg {
@@ -2347,9 +2347,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .primary-btn {
   background: #8490ff;
-  line-height: 42px;
-  padding-left: 30px;
-  padding-right: 30px;
+  border-radius: 15px;
+  line-height: 50px;
+  padding-left: 36px;
+  padding-right: 36px;
   border: none;
   color: #fff;
   display: inline-block;
@@ -2361,6 +2362,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.3s ease 0s;
   cursor: pointer;
   position: relative;
+    background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
 }
 
 .primary-btn:focus {
@@ -4361,7 +4365,7 @@ dl.accordion.time-line:before {
 /*  Footer Styles
 /* =================================== */
 .footer-area {
-  background-color: #04091e;
+  background-color: #95d2fb;
 }
 
 .single-footer-widget h4 {
@@ -4377,7 +4381,7 @@ dl.accordion.time-line:before {
   background: #f9f9ff;
   padding-left: 20px;
   border-radius: 0;
-  font-size: 14px;
+  font-size: 15px;
   line-height: normal !important;
   color: #222;
 }
@@ -4528,8 +4532,8 @@ dl.accordion.time-line:before {
 }
 
 .footer-text {
-  color: #fff;
-  font-size: 15px;
+  color: #000000;
+  font-size: 16px;
 }
 
 .footer-text a {
@@ -4541,7 +4545,7 @@ dl.accordion.time-line:before {
 
 
 /*--------------------------------------------------------------
- Big Buttons 
+Buttons 
   
  Adapted from http://www.adam-bray.com/blog/86/Simple+CSS+3+buttons/
  Avoid flashing of color for accessibility reasons. So no flipping
@@ -4552,8 +4556,8 @@ dl.accordion.time-line:before {
 	border-radius: 15px;
 	color: #fff;
 	display: inline-block;
-	font-size: 22px;
-  font-weight:regular;
+	font-size: 18px;
+  font-weight: 400;
   text-decoration:none;
   padding-top: 10px;
   padding-left: 40px;
@@ -4562,7 +4566,7 @@ dl.accordion.time-line:before {
   color: #ffffff;
   margin-top: 10px;
   margin-bottom: 10px;
-
+  text-transform: uppercase;
 	text-decoration: none;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
 	
@@ -4577,15 +4581,15 @@ dl.accordion.time-line:before {
 }
 
 .btn-blue {
-	background-color: #6f7cff;
-	border: 1px solid #6f7cff;
-  color: #ffffff;
+	background-color: white;
+	border: 1px solid black;
+  color: black;
 }
 	
 .btn-blue:hover {
-	background-color: #3b5aff;
+	background-color: black;
   text-decoration:none;
-  color: #ffffff;
+  color: white;
 
 }
 		
