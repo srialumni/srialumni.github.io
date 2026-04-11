@@ -2335,6 +2335,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+ /*  background: #8490ff; */
+ /* background: #0550c4 */
 }
 
 .p1-gradient-color, .single-services:hover .lnr {
@@ -2347,7 +2349,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .primary-btn {
   background: #8490ff;
-  border-radius: 15px;
+  border-radius: 10px;
   line-height: 50px;
   padding-left: 36px;
   padding-right: 36px;
@@ -2362,13 +2364,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.3s ease 0s;
   cursor: pointer;
   position: relative;
-    background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
 }
 
 .primary-btn:focus {
   outline: none;
+  color: #8490ff;
 }
 
 .primary-btn span {
@@ -2385,6 +2388,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .primary-btn:hover {
   color: #fff;
+}
+
+.container .primary-btn:hover {
+  box-shadow: 0px 20px 20px 0px rgba(132, 144, 255, 0.3);
 }
 
 .primary-btn:hover span {
