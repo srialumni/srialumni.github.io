@@ -4372,7 +4372,8 @@ dl.accordion.time-line:before {
 /*  Footer Styles
 /* =================================== */
 .footer-area {
-  background-color: #95d2fb;
+  background-color: white;
+  border-top: 1px solid black;
 }
 
 .single-footer-widget h4 {
